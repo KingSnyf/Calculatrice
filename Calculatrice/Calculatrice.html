@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculatrice">
+
+    <div id="ecran">0</div>
+
+    <center><button id="bouton-sci" class="gris">SC</button></center>
+
+    <div id="sci" class="cacher">
+      <button class="gris" data-fonction="sin">sin</button>
+      <button class="gris" data-fonction="cos">cos</button>
+      <button class="gris" data-fonction="tan">tan</button>
+      <button class="gris" data-fonction="sqrt">√</button>
+      <button class="gris" data-fonction="exp">exp</button>
+      <button class="gris" data-fonction="ln">ln</button>
+    </div>
+
+    <div class="boutons">
+      <button class="gris" data-action="clear">Del</button>
+      <button class="gris" data-action="effacer">Eff</button>
+      <button class="gris" data-action="pourcentage">%</button>
+      <button class="orange" data-action="diviser">÷</button>
+
+      <button class="noir" data-nombre="7">7</button>
+      <button class="noir" data-nombre="8">8</button>
+      <button class="noir" data-nombre="9">9</button>
+      <button class="orange" data-action="multiplier">×</button>
+
+      <button class="noir" data-nombre="4">4</button>
+      <button class="noir" data-nombre="5">5</button>
+      <button class="noir" data-nombre="6">6</button>
+      <button class="orange" data-action="enlever">−</button>
+
+      <button class="noir" data-nombre="1">1</button>
+      <button class="noir" data-nombre="2">2</button>
+      <button class="noir" data-nombre="3">3</button>
+      <button class="orange" data-action="ajouter">+</button>
+
+      <button class="noir large" data-nombre="0">0</button>
+      <button class="noir" data-nombre=".">.</button>
+      <button class="orange" data-action="egal">=</button>
+    </div>
+
+  </div>
+
+  <script src="Type.js"></script>
+</body>
+</html>

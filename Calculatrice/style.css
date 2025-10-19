@@ -1,0 +1,105 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background:url(image/to-be-hero.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .calculatrice {
+      background: #000000;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      width: 450px;
+      height: 600px;
+    }
+
+    #ecran {
+      background: #2d2d2d;
+      color: #fff;
+      font-size: 48px;
+      text-align: right;
+      padding: 30px 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      min-height: 90px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    #bouton-sci {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+
+    #sci {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 15px;
+      transition: all 0.3s ease;
+    }
+
+    #sci.cacher {
+      display: none;
+    }
+
+    .boutons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    button {
+      border: none;
+      font-size: 24px;
+      padding: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-weight: 500;
+    }
+
+    button:hover {
+      transform: scale(0.95);
+      opacity: 0.9;
+    }
+
+   
+
+    .noir {
+      background: #505050;
+      color: #fff;
+    }
+
+    .gris {
+      background: #a5a5a5;
+      color: #1e1e1e;
+    }
+
+    .orange {
+      background: #ff9500;
+      color: #fff;
+    }
+
+    .large {
+      grid-column: span 2;
+    }
+
+    center {
+      display: block;
+    }
